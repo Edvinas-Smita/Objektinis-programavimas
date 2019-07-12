@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\r\n\r\n\ \r\n\ @author\ Edvinas\ Smita\ -\ VU\ MIF\ PS\ 1k.\ 2gr.\r\n\ \r\n\ \r\n
+comment1.params=world
+comment1.target=void\ addedToWorld(greenfoot.World)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ moveIt()
+comment4.params=
+comment4.target=void\ rotate()
+comment5.params=
+comment5.target=void\ getPoints()
+comment6.params=
+comment6.target=void\ getPowerups()
+comment7.params=
+comment7.target=void\ interactWithGhosts()
+comment8.params=
+comment8.target=java.lang.Boolean\ canKill()
+comment9.params=
+comment9.target=void\ DIE()
+numComments=10

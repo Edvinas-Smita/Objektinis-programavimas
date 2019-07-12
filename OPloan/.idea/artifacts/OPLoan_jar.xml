@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="OPLoan.jar">
+    <output-path>$PROJECT_DIR$/..</output-path>
+    <root id="archive" name="OPloan.jar">
+      <element id="module-output" name="OPloan" />
+    </root>
+  </artifact>
+</component>

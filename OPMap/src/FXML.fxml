@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.embed.swing.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+  <tabs>
+    <Tab text="Map">
+         <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <ScrollPane fx:id="swingAnchor" hbarPolicy="NEVER" prefHeight="451.0" prefWidth="600.0" vbarPolicy="NEVER">
+                     <content>
+                        <SwingNode fx:id="swingNode" />
+                     </content>
+                  </ScrollPane>
+               </children></AnchorPane>
+         </content>
+    </Tab>
+    <Tab text="Flag list">
+         <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Pane fx:id="mapPane" layoutX="10.0" layoutY="10.0" prefHeight="431.0" prefWidth="580.0" />
+               </children></AnchorPane>
+         </content>
+    </Tab>
+  </tabs>
+</TabPane>

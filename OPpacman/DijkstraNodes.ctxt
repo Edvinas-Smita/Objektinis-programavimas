@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=DijkstraNodes
+comment0.text=\r\n\r\n\ \r\n\ @author\ Edvinas\ Smita\ -\ VU\ MIF\ PS\ 1k.\ 2gr.\r\n\ \r\n\ \r\n
+comment1.params=oX\ oY\ gX\ gY\ oT\ papa
+comment1.target=DijkstraNodes(int,\ int,\ int,\ int,\ TileSystem,\ DijkstraNodes)
+comment2.params=x\ y
+comment2.target=java.lang.Boolean\ checkForBounds(int,\ int)
+comment3.params=
+comment3.target=int\ expandOnce()
+comment4.params=
+comment4.target=int\ expandFurther()
+comment5.params=path
+comment5.target=void\ clearAllButPath(DijkstraNodes)
+comment6.params=
+comment6.target=void\ clearAll()
+numComments=7

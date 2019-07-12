@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.embed.swing.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="StudentEditorController">
+   <children>
+      <MenuBar prefHeight="25.0" prefWidth="1280.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#onSave" text="Save PDF" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="View">
+            <items>
+                  <Menu fx:id="collapseMenu" mnemonicParsing="false" text="Collapse..." />
+                  <Menu fx:id="showMenu" mnemonicParsing="false" text="Show..." />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Edit">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#onAddYear" text="Add a year column" />
+                  <Menu fx:id="delYearMenu" mnemonicParsing="false" text="Delete a year column" />
+              </items>
+            </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Pane layoutY="24.0" prefHeight="776.0" prefWidth="1280.0">
+         <children>
+            <TreeTableView fx:id="treeTable" editable="true" prefHeight="776.0" prefWidth="1280.0">
+               <contextMenu>
+                  <ContextMenu fx:id="tableContextMenu">
+                    <items>
+                      <MenuItem mnemonicParsing="false" onAction="#onAddSubFilter" text="Add sub-filter to selected filter" />
+                        <MenuItem mnemonicParsing="false" onAction="#onAddStudent" text="Add student to selected filter" />
+                    </items>
+                  </ContextMenu>
+               </contextMenu>
+            </TreeTableView>
+         </children>
+      </Pane>
+   </children>
+</Pane>

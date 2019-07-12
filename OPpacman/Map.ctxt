@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Map
+comment0.text=\r\n\r\n\ \r\n\ @author\ Edvinas\ Smita\ -\ VU\ MIF\ PS\ 1k.\ 2gr.\r\n\ \r\n\ \r\n
+comment1.params=
+comment1.target=Map()
+comment2.params=
+comment2.target=void\ reset()
+comment3.params=
+comment3.target=void\ nextMap()
+comment4.params=
+comment4.target=void\ addMovers()
+comment5.params=
+comment5.target=void\ victory()
+comment6.params=
+comment6.target=void\ dedForReal()
+numComments=7

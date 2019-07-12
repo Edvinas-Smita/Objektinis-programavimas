@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=PointCounter
+comment0.text=\r\n\r\n\ \r\n\ @author\ Edvinas\ Smita\ -\ VU\ MIF\ PS\ 1k.\ 2gr.\r\n\ \r\n\ \r\n
+comment1.params=points\ deaths
+comment1.target=void\ updateScore(int,\ int)
+comment2.params=world
+comment2.target=void\ addedToWorld(greenfoot.World)
+comment3.params=
+comment3.target=void\ victoryScreen()
+comment4.params=
+comment4.target=void\ dedScreen()
+numComments=5
